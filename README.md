@@ -1,2 +1,2 @@
 # Amplitude-Modulation-Systems-Theoretical-Modeling-and-Hardware-Validation
-A comprehensive laboratory study on Amplitude Modulation (AM) using a Telecoms Trainer. Includes mathematical modeling equations, hardware integration, and step-by-step oscilloscope configuration for signal visualization.
+This project demonstrates a complete engineering workflow for Amplitude Modulation (AM). It bridges the gap between theoretical communication systems and practical hardware implementation. By utilizing a Telecoms Trainer and a Digital Storage Oscilloscope (DSO), the experiment validates mathematical models through real-time signal acquisition and analysis.
