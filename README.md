@@ -13,8 +13,11 @@ In any engineering environment, data is only as reliable as the instruments used
 <details>
 <summary>View Part 1 Documentation</summary>
 
-![Calibration Waveform](Waveform_Captures/Part1_results.jpeg)
-*Figure 1: Internal CAL signal showing the verified 1.1Vp-p square wave.*
+![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig3.jpeg)
+*Figure 1: Internal CAL signal showing the verified 2Vp-p sine wave.*
+![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig4.jpeg)
+*Figure 1: Internal CAL signal showing the verified 1Vp-p square wave.*
+
 </details>
 
 ## Part 2: Introduction to the ETT-101 Modular System
