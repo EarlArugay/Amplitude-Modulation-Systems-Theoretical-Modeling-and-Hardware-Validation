@@ -9,12 +9,27 @@ In any engineering environment, data is only as reliable as the instruments used
 - Time-Base Calibration: Set to 0.5ms/div. The Variable (CAL) knob was locked in the detent position to eliminate timing skew, allowing for a precise calculation of the Period ($p$).
 - Triggering Logic: Employed Internal Triggering (Source: CH1) with Auto Sweep Mode to stabilize periodic waveforms, a prerequisite for accurate spectral estimation.
 
+### **1.2 Experimental Results**
+<details>
+<summary>View Part 1 Documentation</summary>
+
+![Calibration Waveform](Waveform_Captures/part1_calibration.jpg)
+*Figure 1: Internal CAL signal showing the verified 5Vp-p square wave.*
+</details>
+
 ## Part 2: Introduction to the ETT-101 Modular System
 Modern communication systems are often designed using high-level block diagrams. Part 2 introduces the Emona Telecoms-Trainer 101 (ETT-101), a hardware platform that allows these theoretical blocks (Adders, Multipliers, Oscillators) to be physically interconnected. This phase transitions from basic waveform observation to understanding the hardware architecture required for signal processing.
 
 ### 2.1 Hardware Block Interfacing
 - Master Signals: Characterized the 100kHz Sine Wave (Carrier) and the $2kHz$ Sine Wave (Message).
 - Impedance & Connectivity: Utilized 2mm patching leads to establish a common ground plane between the trainer and the oscilloscope, preventing ground loops that could distort low-level message signals.
+
+### **2.2 Experimental Results**
+<details>
+<summary> View Part 2 Documentation</summary>
+![Master Signals](Waveform_Captures/part2_signals.jpg)
+*Figure 2: Output verification of the 100kHz Carrier and 2kHz Message signals.*
+</details>
 
 ## Part 3: Mathematical Operator Modeling (The Adder)
 Signal summation is the most fundamental operation in electronics, used in everything from audio mixing to carrier injection. Part 3 explores the Adder Module to validate the Principle of Superposition. By combining independent signals in a controlled linear environment, we can model how message signals are prepared for the modulation stage, including the critical application of DC offsets.
@@ -27,6 +42,13 @@ $$v_{out}(t) = G \cdot v_a(t) + g \cdot v_b(t)$$
 
 - Gain Optimization: By varying the $G$ and $g$ weighting factors, we simulated different signal-to-noise ratios and signal mixing levels.
 - Destructive Interference: Experimentally verified the Superposition Principle by summing two signals with a phase difference of 180&deg;, resulting in a null output.
+
+### **3.2 Experimental Results**
+<details>
+<summary>View Part 3 Documentation</summary>
+![Adder Waveform](Waveform_Captures/part3_adder.jpg)
+*Figure 3: Linear summation of two sine waves and verified destructive interference.*
+</details>
 
 ## Part 4: AM Synthesis & Performance Analysis
 Amplitude Modulation is the process of varying the strength of a high-frequency carrier signal in proportion to a message signal. Part 4 represents the culmination of the laboratory series, integrating the calibration from Part 1, the hardware logic from Part 2, and the summation techniques from Part 3. The goal is to synthesize a stable AM envelope and utilize specialized diagnostic modes to verify the linearity of the transmitter.
@@ -45,7 +67,13 @@ To verify the linearity of the modulation, we utilized XY Mode to produce a Trap
 - Y-Axis: AM Output.
 - Interpretation: A straight-edged trapezoid indicates linear modulation. Curvature or "pinching" indicates distortion or overmodulation (m > 1).
 
-
+### **4.3 Experimental Results**
+<details>
+<summary>View Part 4 Documentation</summary>
+![AM Envelope](Waveform_Captures/part4_envelope.jpg)
+![AM Trapezoid](Waveform_Captures/part4_trapezoid.jpg)
+*Figure 4: Time-domain AM envelope and corresponding XY-mode trapezoidal linearity test.*
+</details>
 
 
 
