@@ -13,14 +13,12 @@ In any engineering environment, data is only as reliable as the instruments used
 <details>
 <summary>View Part 1 Documentation</summary>
 
-![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig3.jpeg)
-*Figure 1: Internal CAL signal showing the verified 2Vp-p sine wave.*
 ![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig4.jpeg)
-*Figure 2: Internal CAL signal showing the verified 1Vp-p square wave.*
+*Figure 1: Internal CAL signal showing the verified 1Vp-p square wave.*
 ![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig5.jpeg)
-*Figure 3: Internal CAL signal showing the square wave with 1khz frequency and 1ms period.*
+*Figure 2: Internal CAL signal showing the square wave with 1khz frequency and 1ms period.*
 ![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig6.jpeg)
-*Figure 4: Internal CAL signal showing the square wave with 1khz frequency and 1ms period zoomed in for manual computation.*
+*Figure 3: Internal CAL signal showing the square wave with 1khz frequency and 1ms period zoomed in for manual computation.*
 
 </details>
 
