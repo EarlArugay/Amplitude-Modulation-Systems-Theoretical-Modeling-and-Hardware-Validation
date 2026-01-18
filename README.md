@@ -32,8 +32,8 @@ Modern communication systems are often designed using high-level block diagrams.
 ### **2.2 Experimental Results**
 <details>
 <summary> View Part 2 Documentation</summary>
-![Master Signals](Waveform_Captures/part2_signals.jpg)
-*Figure 2: Output verification of the 100kHz Carrier and 2kHz Message signals.*
+![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig3sincos.jpeg)
+*Figure 2: Output verification of the 2kHz sine signal.*
 </details>
 
 ## Part 3: Mathematical Operator Modeling (The Adder)
