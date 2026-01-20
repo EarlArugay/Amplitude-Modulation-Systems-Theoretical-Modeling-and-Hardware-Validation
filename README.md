@@ -46,9 +46,9 @@ Modern communication systems are often designed using high-level block diagrams.
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig3sincos.jpeg)
 *Figure 2: Output verification of the 2kHz sine signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig1sincos.jpeg)
-*Figure 2: Output verification of the 2kHz sine signal.*
+*Figure 2: Output verification of the 100kHz sine and cosine signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig2sincos.jpeg)
-*Figure 2: Output verification of the 2kHz sine signal.*
+*Figure 2: Output verification of the 100kHz sine and cosine signal.*
 
 
 </details>
