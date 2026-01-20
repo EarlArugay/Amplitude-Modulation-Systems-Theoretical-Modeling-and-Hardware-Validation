@@ -43,8 +43,14 @@ Modern communication systems are often designed using high-level block diagrams.
 <details>
 <summary> View Part 2 Documentation</summary>
   
-![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig3sincos.jpeg).
+![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig3sincos.jpeg)
 *Figure 2: Output verification of the 2kHz sine signal.*
+![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig1sincos.jpeg)
+*Figure 2: Output verification of the 2kHz sine signal.*
+![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig2sincos.jpeg)
+*Figure 2: Output verification of the 2kHz sine signal.*
+
+
 </details>
 
 ## Part 3: Mathematical Operator Modeling (The Adder)
