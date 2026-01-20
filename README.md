@@ -9,7 +9,12 @@ In any engineering environment, data is only as reliable as the instruments used
 - Time-Base Calibration: Set to 0.5ms/div. The Variable (CAL) knob was locked in the detent position to eliminate timing skew, allowing for a precise calculation of the Period ($p$).
 - Triggering Logic: Employed Internal Triggering (Source: CH1) with Auto Sweep Mode to stabilize periodic waveforms, a prerequisite for accurate spectral estimation.
 
-### **1.2 Experimental Results**
+### **1.2 Diagrams**
+<details>
+<summary>View Part 1 Diagrams</summary>
+</details>
+
+### **1.3 Experimental Results**
 <details>
 <summary>View Part 1 Documentation</summary>
 
@@ -29,7 +34,12 @@ Modern communication systems are often designed using high-level block diagrams.
 - Master Signals: Characterized the 100kHz Sine Wave (Carrier) and the $2kHz$ Sine Wave (Message).
 - Impedance & Connectivity: Utilized 2mm patching leads to establish a common ground plane between the trainer and the oscilloscope, preventing ground loops that could distort low-level message signals.
 
-### **2.2 Experimental Results**
+### **2.2 Diagrams**
+<details>
+<summary>View Part 2 Diagrams</summary>
+</details>
+
+### **2.3 Experimental Results**
 <details>
 <summary> View Part 2 Documentation</summary>
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig3sincos.jpeg)
@@ -48,7 +58,12 @@ $$v_{out}(t) = G \cdot v_a(t) + g \cdot v_b(t)$$
 - Gain Optimization: By varying the $G$ and $g$ weighting factors, we simulated different signal-to-noise ratios and signal mixing levels.
 - Destructive Interference: Experimentally verified the Superposition Principle by summing two signals with a phase difference of 180&deg;, resulting in a null output.
 
-### **3.2 Experimental Results**
+### **3.2 Diagrams**
+<details>
+<summary>View Part 3 Diagrams</summary>
+</details>
+
+### **3.3 Experimental Results**
 <details>
 <summary>View Part 3 Documentation</summary>
 ![Adder Waveform](Waveform_Captures/part3_adder.jpg)
@@ -72,7 +87,12 @@ To verify the linearity of the modulation, we utilized XY Mode to produce a Trap
 - Y-Axis: AM Output.
 - Interpretation: A straight-edged trapezoid indicates linear modulation. Curvature or "pinching" indicates distortion or overmodulation (m > 1).
 
-### **4.3 Experimental Results**
+### **4.3 Diagrams**
+<details>
+<summary>View Part 4 Diagrams</summary>
+</details>
+
+### **4.4 Experimental Results**
 <details>
 <summary>View Part 4 Documentation</summary>
 ![AM Envelope](Waveform_Captures/part4_envelope.jpg)
