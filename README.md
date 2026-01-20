@@ -19,11 +19,11 @@ In any engineering environment, data is only as reliable as the instruments used
 <summary>View Part 1 Documentation</summary>
 
 ![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig4.jpeg)
-*Figure 1: Internal CAL signal showing the verified 1Vp-p square wave.*
+*Figure 1.3.1: Internal CAL signal showing the verified 1Vp-p square wave.*
 ![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig5.jpeg)
-*Figure 2: Internal CAL signal showing the square wave with 1khz frequency and 1ms period.*
+*Figure 1.3.2: Internal CAL signal showing the square wave with 1khz frequency and 1ms period.*
 ![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig6.jpeg)
-*Figure 3: Internal CAL signal showing the square wave with 1khz frequency and 1ms period zoomed in for manual computation.*
+*Figure 1.3.3: Internal CAL signal showing the square wave with 1khz frequency and 1ms period zoomed in for manual computation.*
 
 </details>
 
@@ -44,11 +44,15 @@ Modern communication systems are often designed using high-level block diagrams.
 <summary> View Part 2 Documentation</summary>
   
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig3sincos.jpeg)
-*Figure 2: Output verification of the 2kHz sine signal.*
+*Figure 2.3.1: Output verification of the 2kHz sine signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig1sincos.jpeg)
-*Figure 2: Output verification of the 100kHz sine and cosine signal.*
+*Figure 2.3.2: Output verification of the 100kHz sine and cosine signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig2sincos.jpeg)
-*Figure 2: Output verification of the 100kHz sine and cosine signal.*
+*Figure 2.3.3: Output verification of the 100kHz sine and cosine signal.*
+![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig1mic.jpeg)
+*Figure 2.3.4: Output verification of the speech module output signal.*
+![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig2mic.jpeg)
+*Figure 2.3.5: Output verification of the speech module output signal.*
 
 
 </details>
