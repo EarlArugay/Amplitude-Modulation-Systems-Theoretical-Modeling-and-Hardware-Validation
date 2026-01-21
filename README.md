@@ -44,17 +44,25 @@ Modern communication systems are often designed using high-level block diagrams.
 <summary> View Part 2 Documentation</summary>
   
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig3sincos.jpeg)
-*Figure 2.3.1: Output verification of the 2kHz sine signal.*
+*Figure 2.3.1: Output verification of the Master Signals Module 2kHz sine signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig1sincos.jpeg)
-*Figure 2.3.2: Output verification of the 100kHz sine and cosine signal.*
+*Figure 2.3.2: Output verification of the Master Signals Module 100kHz sine and cosine signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig2sincos.jpeg)
-*Figure 2.3.3: Output verification of the 100kHz sine and cosine signal.*
+*Figure 2.3.3: Output verification of the Master Signals Module 100kHz sine and cosine signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig1mic.jpeg)
-*Figure 2.3.4: Output verification of the speech module output signal.*
+*Figure 2.3.4: Output verification of the Speech Module output signal .*
 ![Master Signals](Waveform_Captures/Part2_Results/Part_2resultfig2mic.jpeg)
-*Figure 2.3.5: Output verification of the speech module output signal.*
+*Figure 2.3.5: Output verification of the Speech Module output signal.*
+![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig1buffer.jpeg)
+*Figure 2.3.6: Output verification of the Buffer Module output signal.*
+![Master Signals](Waveform_Captures/Part2_Results/Part2_resultfig2buffer.jpeg)
+*Figure 2.3.7: Output verification of the Buffer Module output signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_fig2addert2.jpeg)
-*Figure 2.3.6: Output verification of the adder module output signal.*
+*Figure 2.3.8: Output verification of the Adder Module output signal.*
+![Master Signals](Waveform_Captures/Part2_Results/Part2_fig3addert3.jpeg)
+*Figure 2.3.9: Output verification of the Adder Module output signal.*
+![Master Signals](Waveform_Captures/Part2_Results/Part2_fig1phaseshift.jpeg)
+*Figure 2.3.10: Output verification of the Phase Shifter Module output signal.*
 
 </details>
 
@@ -78,8 +86,11 @@ $$v_{out}(t) = G \cdot v_a(t) + g \cdot v_b(t)$$
 ### **3.3 Experimental Results**
 <details>
 <summary>View Part 3 Documentation</summary>
-![Adder Waveform](Waveform_Captures/part3_adder.jpg)
-*Figure 3: Linear summation of two sine waves and verified destructive interference.*
+  
+![Adder Waveform](Waveform_Captures/Part3_Results/Part3_resultsfig1modeleq.jpeg)
+*Figure 3.3.1: Linear summation of two sine waves and verified destructive interference.*
+![Adder Waveform](Waveform_Captures/Part3_Results/Part3_resultsfig2modeleq.jpeg)
+*Figure 3.3.2: Linear summation of two sine waves and verified destructive interference.*
 </details>
 
 ## Part 4: AM Synthesis & Performance Analysis
@@ -107,9 +118,11 @@ To verify the linearity of the modulation, we utilized XY Mode to produce a Trap
 ### **4.4 Experimental Results**
 <details>
 <summary>View Part 4 Documentation</summary>
-![AM Envelope](Waveform_Captures/part4_envelope.jpg)
-![AM Trapezoid](Waveform_Captures/part4_trapezoid.jpg)
-*Figure 4: Time-domain AM envelope and corresponding XY-mode trapezoidal linearity test.*
+  
+![AM Trapezoid](Waveform_Captures/Part4_Results/Part4_resultsfig1VDCinput.jpeg)
+*Figure 4.4.1: Modulating signal with VDC as source input.*
+![AM Trapezoid](Waveform_Captures/Part4_Results/Part4_resultfig2Mastersignalinput.jpeg)
+*Figure 4.4.2: Modulating signal with Master Signals as source input.*
 </details>
 
 
