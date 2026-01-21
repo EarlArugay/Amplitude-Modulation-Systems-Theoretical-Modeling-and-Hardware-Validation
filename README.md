@@ -53,7 +53,8 @@ Modern communication systems are often designed using high-level block diagrams.
 *Figure 2.3.4: Output verification of the speech module output signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part_2resultfig2mic.jpeg)
 *Figure 2.3.5: Output verification of the speech module output signal.*
-
+![Master Signals](Waveform_Captures/Part2_Results/Part_2resultfig1adder.jpeg)
+*Figure 2.3.5: Output verification of the adder module output signal.*
 
 </details>
 
