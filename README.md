@@ -123,6 +123,14 @@ To verify the linearity of the modulation, we utilized XY Mode to produce a Trap
 *Figure 4.4.1: Modulating signal with VDC as source input.*
 ![AM Trapezoid](Waveform_Captures/Part4_Results/Part4_resultfig2Mastersignalinput.jpeg)
 *Figure 4.4.2: Modulating signal with Master Signals as source input.*
+![AM Trapezoid](Waveform_Captures/Part4_Results/Part4_resultfig1AMwith0.32m.jpeg)
+*Figure 4.4.3: AM signal with 0.32 modulating index.*
+![AM Trapezoid](Waveform_Captures/Part4_Results/Part4_resultfig2AMwith0.7m.jpeg)
+*Figure 4.4.4: AM signal with 0.7 modulating index.*
+![AM Trapezoid](Waveform_Captures/Part4_Results/Part4_resultfig3AMwith1m.jpeg)
+*Figure 4.4.5: AM signal with ~ 1 modulating index.*
+![AM Trapezoid](Waveform_Captures/Part4_Results/Part4_resultfig4AMwith1.2m.jpeg)
+*Figure 4.4.6: AM signal with > 1 modulating index.*
 </details>
 
 
