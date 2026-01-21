@@ -37,6 +37,28 @@ Modern communication systems are often designed using high-level block diagrams.
 ### **2.2 Diagrams**
 <details>
 <summary>View Part 2 Diagrams</summary>
+
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1setupa.jpeg)
+*Figure 2.2.1: 2khz sinewave setup.*
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1diagram.jpeg)
+*Figure 2.2.2: 2khz sinewave diagram.*
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1setupb.jpeg)
+*Figure 2.2.3: 100khz sine&cosinewave setup.*
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1setupspeechmodule.jpeg)
+*Figure 2.2.4: Speech module setup.*
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1setupmodulebuffer.jpeg)
+*Figure 2.2.5: Buffer module setup.*
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1buffermodulediagram.jpeg)
+*Figure 2.2.6: Buffer module diagram.*
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.2setupaddermodule.jpeg)
+*Figure 2.2.7: Adder module setup.*
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.2adderdiagram.jpeg)
+*Figure 2.2.8: Adder module diagram.*
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.2setupPhaseshiftermodule.jpeg)
+*Figure 2.2.9: Phase Shifter module setup.*
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.2Phaseshifterdiagram.jpeg)
+*Figure 2.2.10: Phase Shifter module diagram.*
+
 </details>
 
 ### **2.3 Experimental Results**
@@ -63,7 +85,6 @@ Modern communication systems are often designed using high-level block diagrams.
 *Figure 2.3.9: Output verification of the Adder Module output signal.*
 ![Master Signals](Waveform_Captures/Part2_Results/Part2_fig1phaseshift.jpeg)
 *Figure 2.3.10: Output verification of the Phase Shifter Module output signal.*
-
 </details>
 
 ## Part 3: Mathematical Operator Modeling (The Adder)
@@ -81,6 +102,10 @@ $$v_{out}(t) = G \cdot v_a(t) + g \cdot v_b(t)$$
 ### **3.2 Diagrams**
 <details>
 <summary>View Part 3 Diagrams</summary>
+
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1setupa.jpeg)
+*Figure 2.2.1: 2khz sinewave setup.*
+
 </details>
 
 ### **3.3 Experimental Results**
@@ -113,6 +138,10 @@ To verify the linearity of the modulation, we utilized XY Mode to produce a Trap
 ### **4.3 Diagrams**
 <details>
 <summary>View Part 4 Diagrams</summary>
+
+![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1setupa.jpeg)
+*Figure 2.2.1: 2khz sinewave setup.*
+
 </details>
 
 ### **4.4 Experimental Results**
