@@ -1,6 +1,12 @@
 # Amplitude-Modulation-Systems-Theoretical-Modeling-and-Hardware-Validation
 This project demonstrates a complete engineering workflow for Amplitude Modulation (AM). It bridges the gap between theoretical communication systems and practical hardware implementation. By utilizing a Telecoms Trainer and a Digital Storage Oscilloscope (DSO), the experiment validates mathematical models through real-time signal acquisition and analysis.
 
+## Table of Contents
+* [Part 1: Signal Metrology & Instrumentation Authority](#-part-1-signal-metrology--instrumentation-authority)
+* [Part 2: Introduction to the ETT-101 Modular System](#️-part-2-introduction-to-the-ett-101-modular-system)
+* [Part 3: Mathematical Operator Modeling (The Adder)](#-part-3-mathematical-operator-modeling-the-adder)
+* [Part 4: AM Synthesis & Performance Analysis](#-part-4-am-synthesis--performance-analysis)
+
 ## Part 1: Signal Metrology & Instrumentation Authority
 In any engineering environment, data is only as reliable as the instruments used to collect it. Part 1 focuses on the characterization and calibration of the Digital Storage Oscilloscope (DSO). Before analyzing complex communication signals, it is essential to eliminate measurement uncertainty by validating the horizontal timebase and vertical deflection systems against a known reference signal.
 
@@ -9,21 +15,16 @@ In any engineering environment, data is only as reliable as the instruments used
 - Time-Base Calibration: Set to 0.5ms/div. The Variable (CAL) knob was locked in the detent position to eliminate timing skew, allowing for a precise calculation of the Period ($p$).
 - Triggering Logic: Employed Internal Triggering (Source: CH1) with Auto Sweep Mode to stabilize periodic waveforms, a prerequisite for accurate spectral estimation.
 
-### **1.2 Diagrams**
-<details>
-<summary>View Part 1 Diagrams</summary>
-</details>
-
-### **1.3 Experimental Results**
+### **1.2 Experimental Results**
 <details>
 <summary>View Part 1 Documentation</summary>
 
 ![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig4.jpeg)
-*Figure 1.3.1: Internal CAL signal showing the verified 1Vp-p square wave.*
+*Figure 1.2.1: Internal CAL signal showing the verified 1Vp-p square wave.*
 ![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig5.jpeg)
-*Figure 1.3.2: Internal CAL signal showing the square wave with 1khz frequency and 1ms period.*
+*Figure 1.2.2: Internal CAL signal showing the square wave with 1khz frequency and 1ms period.*
 ![Calibration Waveform](Waveform_Captures/Part1_Results/Part1_resultfig6.jpeg)
-*Figure 1.3.3: Internal CAL signal showing the square wave with 1khz frequency and 1ms period zoomed in for manual computation.*
+*Figure 1.2.3: Internal CAL signal showing the square wave with 1khz frequency and 1ms period zoomed in for manual computation.*
 
 </details>
 
@@ -102,9 +103,15 @@ $$v_{out}(t) = G \cdot v_a(t) + g \cdot v_b(t)$$
 ### **3.2 Diagrams**
 <details>
 <summary>View Part 3 Diagrams</summary>
-
-![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1setupa.jpeg)
-*Figure 2.2.1: 2khz sinewave setup.*
+  
+![Trainer Diagrams](Diagrams/Part3_Diagrams/Part3_3.1setupaddereqn.jpeg)
+*Figure 3.2.1: Modeling Equations from Adder Module setup.*
+![Trainer Diagrams](Diagrams/Part3_Diagrams/Part3_3.1addereqndiagram.jpeg)
+*Figure 3.2.2: Modeling Equations from Adder Module Diagram.*
+![Trainer Diagrams](Diagrams/Part3_Diagrams/Part3_3.2setupadderwithphaseshiftereqn.jpeg)
+*Figure 3.2.3: Modeling Equations from Adder Module with Phase Shift at Siganal B setup.*
+![Trainer Diagrams](Diagrams/Part3_Diagrams/Part3_3.2adderwithphaseshiftereqndiagram.jpeg)
+*Figure 3.2.4: Modeling Equations from Adder Module with Phase Shift at Siganal B Diagram.*
 
 </details>
 
@@ -139,8 +146,14 @@ To verify the linearity of the modulation, we utilized XY Mode to produce a Trap
 <details>
 <summary>View Part 4 Diagrams</summary>
 
-![Trainer Diagrams](Diagrams/Part2_Diagrams/Part2_2.1setupa.jpeg)
-*Figure 2.2.1: 2khz sinewave setup.*
+![Trainer Diagrams](Diagrams/Part4_Diagrams/Part4_4.1setupgeneratingammessage.jpeg)
+*Figure 4.3.1: Generating AM Message setup.*
+![Trainer Diagrams](Diagrams/Part4_Diagrams/Part4_4.1generatingammessagediagram.jpeg)
+*Figure 4.3.2: generating AM Message diagram.*
+![Trainer Diagrams](Diagrams/Part4_Diagrams/Part4_4.2setupgeneratingdsbfc.jpeg)
+*Figure 4.3.3: Genearting DSBFC signal setup.*
+![Trainer Diagrams](Diagrams/Part4_Diagrams/Part4_4.2generatingdsbfcdiagram.jpeg)
+*Figure 4.3.4: Generating DSBFC siganal diagram.*
 
 </details>
 
@@ -161,6 +174,45 @@ To verify the linearity of the modulation, we utilized XY Mode to produce a Trap
 ![AM Trapezoid](Waveform_Captures/Part4_Results/Part4_resultfig4AMwith1.2m.jpeg)
 *Figure 4.4.6: AM signal with > 1 modulating index.*
 </details>
+
+
+## Results & Data Analysis
+This section contains the finalized data extracted from the experimental trials and the associated post-lab analysis.
+
+### **Measured Data Summary**
+| Phase | Parameter | Expected Value | Measured Value | Analysis |
+| :--- | :--- | :--- | :--- | :--- |
+| **Part 1** | Calibration Freq | 1.0 kHz | 1.0kHz | Instrument validated |
+| **Part 2** | Master Carrier | 100 kHz | 100.2kHz | Signal source stable |
+| **Part 3** | Adder Gain | Linear | Linear | Superposition verified |
+| **Part 4** | Modulation Index | $m \le 1$ | $m \le 1$ | Linear AM achieved |
+
+*(To view all complete tables, please download the Excel sheet below.)*
+
+**[Download Complete Experimental Data (Excel)](Data/excel)**
+
+### **Post-Lab Q&A**
+<details>
+<summary><b>Click to view detailed Question & Answer documentation</b></summary>
+
+> **Note:** The following questions were answered based on observations from the ETT-101 modules and Scope traces.
+
+*(For the full list of 10+ questions and complete answers, please download the PDF file below.)*
+
+**[Download Complete Experimental Q&A (PDF)](Data/pdf)**
+
+</details>
+
+---
+
+## 📂 Project Resources
+For full access to the raw datasets, formulas, and the complete Q&A worksheet, please use the links below:
+
+* **[Download Complete Experimental Data (Excel)](Data/Your_Excel_File_Name.xlsx)**
+* **[Download Complete Experimental Q&A (PDF)](Data/Your_Excel_File_Name.xlsx)**
+* **[Browse All Captured Documentation](Waveform_Captures/)**
+
+---
 
 
 
