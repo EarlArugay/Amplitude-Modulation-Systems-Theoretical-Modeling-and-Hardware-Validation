@@ -200,7 +200,7 @@ This section contains the finalized data extracted from the experimental trials 
 
 *(For the full list of 10+ questions and complete answers, please download the PDF file below.)*
 
-**[Download Complete Experimental Q&A (PDF)](Data/Amplitude_Modulation_Systems_Theoretical_Modeling_and_Hardware_Validation_Questions_and_Answers.pdf)**
+**[View or Download Complete Experimental Q&A (PDF)](Data/Amplitude_Modulation_Systems_Theoretical_Modeling_and_Hardware_Validation_Questions_and_Answers.pdf)**
 
 </details>
 
