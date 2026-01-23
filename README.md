@@ -187,12 +187,13 @@ This section contains the finalized data extracted from the experimental trials 
 | **Part 3** | Adder Gain | Linear | Linear | Superposition verified |
 | **Part 4** | Modulation Index | $m \le 1$ | $m \le 1$ | Linear AM achieved |
 
-*(To view all complete tables, please download the Excel sheet below.)*
+*(To view all complete tables, please view or download the PDF file below.)*
 
-**[Download Complete Experimental Data (Excel)](Data/excel)**
+**[Download Complete Experimental Data (PDF)](Data/Amplitude_Modulation_Systems_Theoretical_Modeling_and_Hardware_Validation_Tables_and_Data.pdf)**
 
 ### **Post-Lab Q&A**
 <details>
+  
 <summary><b>Click to view detailed Question & Answer documentation</b></summary>
 
 > **Note:** The following questions were answered based on observations from the ETT-101 modules and Scope traces.
