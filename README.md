@@ -200,17 +200,17 @@ This section contains the finalized data extracted from the experimental trials 
 
 *(For the full list of 10+ questions and complete answers, please download the PDF file below.)*
 
-**[Download Complete Experimental Q&A (PDF)](Data/pdf)**
+**[Download Complete Experimental Q&A (PDF)](Data/Amplitude_Modulation_Systems_Theoretical_Modeling_and_Hardware_Validation_Questions_and_Answers.pdf)**
 
 </details>
 
 ---
 
-## 📂 Project Resources
+## Project Resources
 For full access to the raw datasets, formulas, and the complete Q&A worksheet, please use the links below:
 
-* **[Download Complete Experimental Data (Excel)](Data/Your_Excel_File_Name.xlsx)**
-* **[Download Complete Experimental Q&A (PDF)](Data/Your_Excel_File_Name.xlsx)**
+* **[Download Complete Experimental Data (PDF)](Data/Amplitude_Modulation_Systems_Theoretical_Modeling_and_Hardware_Validation_Tables_and_Data.pdf)**
+* **[Download Complete Experimental Q&A (PDF)](Data/Amplitude_Modulation_Systems_Theoretical_Modeling_and_Hardware_Validation_Questions_and_Answers.pdf)**
 * **[Browse All Captured Documentation](Waveform_Captures/)**
 
 ---
