@@ -6,6 +6,7 @@ This project demonstrates a complete engineering workflow for Amplitude Modulati
 * [Part 2: Introduction to the ETT-101 Modular System](#️-part-2-introduction-to-the-ett-101-modular-system)
 * [Part 3: Mathematical Operator Modeling (The Adder)](#-part-3-mathematical-operator-modeling-the-adder)
 * [Part 4: AM Synthesis & Performance Analysis](#-part-4-am-synthesis--performance-analysis)
+* [Results & Data Analysis](#-Results-&-Data-Analysis)
 
 ## Part 1: Signal Metrology & Instrumentation Authority
 In any engineering environment, data is only as reliable as the instruments used to collect it. Part 1 focuses on the characterization and calibration of the Digital Storage Oscilloscope (DSO). Before analyzing complex communication signals, it is essential to eliminate measurement uncertainty by validating the horizontal timebase and vertical deflection systems against a known reference signal.
